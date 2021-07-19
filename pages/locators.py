@@ -9,6 +9,10 @@ class BasePageLocators:
 class LoginPageLocators:
     LOGIN_BUTTON = (By.XPATH, "//*[@name='login_submit']")
     REGISTER_BUTTON = (By.XPATH, "//*[@name='registration_submit']")
+    EMAIL = (By.XPATH, "//*[@name='registration-email']")
+    PASSWORD = (By.XPATH, "//*[@name='registration-password1']")
+    CONFIRM_PASSWORD = (By.XPATH, "//*[@name='registration-password2']")
+    USER_ICON = (By.XPATH, "//*[@class='icon-user']")
 	
 class BasketPageLocators:
     EMPTY_BASKET_TEXT = (By.XPATH, "(//*[contains(@class, 'content')])//p")
